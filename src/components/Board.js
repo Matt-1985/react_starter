@@ -3,6 +3,8 @@ import React from "react";
 import Square from "./Square";
 
 export default function Board() {
+  const [squares, setSquares] = useState(Array(9), fill(null));
+
   function renderSquare(index) {
     return <Square value={index} />;
   }
