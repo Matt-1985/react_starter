@@ -1,5 +1,5 @@
 import "./square.css";
-import React, { useState } from "react";
+import React from "react";
 
 export default function Square(props) {
   return (
